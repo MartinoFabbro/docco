@@ -2,7 +2,6 @@ const gulp = require('gulp');
 const sass = require('gulp-sass');
 const sourceMaps = require('gulp-sourcemaps');
 const autoprefixer = require('gulp-autoprefixer');
-const browserSync = require('browser-sync');
 const del = require('del');
 
 //SCSS compilation
@@ -14,7 +13,6 @@ function style() {
     .pipe(autoprefixer())
     .pipe(sourceMaps.write('./'))
     .pipe(gulp.dest('./assets/css'))
-    .pipe(browserSync.stream());
 }
 
 function watch() {
