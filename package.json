@@ -1,5 +1,5 @@
 {
-  "name": "foi-app-landing-page",
+  "name": "docco",
   "version": "1.0.0",
   "description": "Bootstrap 4 based FOI App Landing Page",
   "main": "index.html",
@@ -17,10 +17,9 @@
     "lead-bs4-ui-kit"
   ],
   "author": "Bootstrapdash",
-  "license": "Bootstrapdash Licence<https://www.BootstrapDash.com/license/>",
+  "license": "UNLICENSED",
   "devDependencies": {
     "del": "^5.1.0",
-    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-clean-css": "^4.2.0",
     "gulp-sass": "^4.1.0",
@@ -30,7 +29,17 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.0",
     "bootstrap": "^4.4.1",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
     "jquery": "^3.4.1",
     "popper.js": "^1.16.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinoFabbro/docco.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MartinoFabbro/docco/issues"
+  },
+  "homepage": "https://github.com/MartinoFabbro/docco#readme"
 }

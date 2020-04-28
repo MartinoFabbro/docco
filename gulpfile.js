@@ -2,6 +2,7 @@ const gulp = require('gulp');
 const sass = require('gulp-sass');
 const sourceMaps = require('gulp-sourcemaps');
 const autoprefixer = require('gulp-autoprefixer');
+const browserSync = require('browser-sync');
 const del = require('del');
 
 //SCSS compilation
@@ -13,6 +14,23 @@ function style() {
     .pipe(autoprefixer())
     .pipe(sourceMaps.write('./'))
     .pipe(gulp.dest('./assets/css'))
+    .pipe(browserSync.stream());
+}
+
+function watch() {
+    browserSync.init({
+        server: {
+            baseDir: './',
+        },
+        startPath: 'index.html',
+        ghostMode: false,
+        notify: false
+    });
+    style();
+    gulp.watch('./assets/scss/**/*.scss', style);
+    gulp.watch('./*.html').on('change', browserSync.reload);
+    gulp.watch('./assets/js/*.js').on('change', browserSync.reload);
+
 }
 
 function cleanVendors(){
@@ -33,4 +51,5 @@ function buildVendors() {
 }
 
 exports.style = style;
+exports.watch = watch;
 exports.buildVendors = gulp.series(cleanVendors, buildVendors);
