@@ -4,16 +4,14 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "node gulpfile.js"
-},
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
-    "gulp": "^4.0.2",
     "gulp-cli": "^0.1.5",
     "yargs": "^6.6.0"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "gulp": "^4.0.2"
   },
   "repository": {
     "type": "git",
