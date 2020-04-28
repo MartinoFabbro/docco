@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
+  "scripts": {
+    "start": "node gulpfile.js"
+},
   "dependencies": {
     "gulp": "^4.0.2",
     "gulp-cli": "^0.1.5",
