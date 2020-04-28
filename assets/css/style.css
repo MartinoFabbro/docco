@@ -1797,8 +1797,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #ffffff;
-  background-color: #e23e57;
-  border-color: #e23e57; }
+  background-color: #6206a8;
+  border-color: #6206a8; }
   .btn-primary:hover {
     color: #ffffff;
     background-color: #4c0583;
@@ -8336,22 +8336,19 @@ html {
   scroll-behavior: smooth; }
 
 .foi-header {
-  padding-top: 24px;
-  margin-bottom:100px;
-  }
+  padding-top: 24px; }
   .foi-header .header-content {
     padding-top: 105px;
     padding-bottom: 40px; }
-    @media only screen and (max-width: 767px) {
-    .foi-header .header-content {
-    padding-top: 20px;
-    padding-bottom: 40px; }
-    }
     .foi-header .header-content h1 {
       font-size: 45px;
       line-height: 1.22; }
   .foi-header.landing-header {
-}
+    background-image: url("../images/bg_1@2x.png"), url("../images/Bg_2@2x.png");
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: 167px, 65%;
+    background-position: left bottom, right top; }
 
 .landing-feature-icon {
   display: inline-block;
