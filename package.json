@@ -4,6 +4,7 @@
   "description": "",
   "main": "gulpfile.js",
   "dependencies": {
+    "gulp": "^4.0.2",
     "gulp-cli": "^0.1.5",
     "yargs": "^6.6.0"
   },
