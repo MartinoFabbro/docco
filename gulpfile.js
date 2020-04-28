@@ -24,7 +24,8 @@ function watch() {
         },
         startPath: 'index.html',
         ghostMode: false,
-        notify: false
+        notify: false,
+        open: false,
     });
     style();
     gulp.watch('./assets/scss/**/*.scss', style);
