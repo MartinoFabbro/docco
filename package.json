@@ -6,7 +6,9 @@
   "scripts": {
     "start": "gulp watch",
     "vendors": "gulp buildVendors",
+    "postinstall": "gulp default",
     "test": "echo \"Error: no test specified\" && exit 1"
+
   },
   "keywords": [
     "bootstrap4",
