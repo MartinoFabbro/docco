@@ -4,7 +4,7 @@
   "description": "Bootstrap 4 based FOI App Landing Page",
   "main": "index.html",
   "scripts": {
-    "start": "gulp watch",
+    "start": "gulp",
     "vendors": "gulp buildVendors",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
