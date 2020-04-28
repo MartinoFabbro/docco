@@ -33,5 +33,4 @@ function buildVendors() {
 }
 
 exports.style = style;
-exports.watch = watch;
 exports.buildVendors = gulp.series(cleanVendors, buildVendors);
