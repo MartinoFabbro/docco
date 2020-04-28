@@ -15,9 +15,6 @@ function style() {
     .pipe(gulp.dest('./assets/css'))
 }
 
-function watch() {
-}
-
 function cleanVendors(){
     return del('./assets/vendors/**/*');
 }
