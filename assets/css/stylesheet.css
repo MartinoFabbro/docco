@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Wes FY  3';
+    src: url('../fonts/WesFY-Regular3.woff2') format('woff2'),
+        url('../fonts/WesFY-Regular3.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Wes FY  2';
+    src: url('../fonts/WesFY-Regular4.woff') format('woff2'),
+        url('../fonts/WesFY-Regular4.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Wes FY';
+    src: url('../fonts/WesFY-Medium.woff2') format('woff2'),
+        url('../fonts/WesFY-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Wes FY  4';
+    src: url('../fonts/WesFY-Regular2.woff2') format('woff2'),
+        url('../fonts/WesFY-Regular2.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Wes FY';
+    src: url('../fonts/WesFY-Regular5.woff2') format('woff2'),
+        url('../fonts/WesFY-Regular5.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+

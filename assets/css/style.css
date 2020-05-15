@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=DM+Sans:400,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+@import "navbar.css";
+
+@font-face {font-family: "Wes FY"; src: url("../fonts/e7612f4abf566ef88cde2cd78f336047.eot"); src: url("../fonts/e7612f4abf566ef88cde2cd78f336047.eot?#iefix") format("embedded-opentype"), url("../fonts/e7612f4abf566ef88cde2cd78f336047.woff2") format("woff2"), url("../fonts/e7612f4abf566ef88cde2cd78f336047.woff") format("woff"), url("../fonts/e7612f4abf566ef88cde2cd78f336047.ttf") format("truetype"), url("../fonts/e7612f4abf566ef88cde2cd78f336047.svg#Wes FY") format("svg"); }
+
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -57,9 +61,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
+  background-color: #FBFBFB;
   color: #000000;
-  text-align: left;
-  background-color: #ffffff; }
+  text-align: left; }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important; }
@@ -71,7 +75,17 @@ hr {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 0.5rem; 
+  font-family: "Wes FY";
+  letter-spacing: 1.25px;
+  color: #202d4a;
+
+}
+
+h1 {
+  font-size: 3em !important;
+  line-height: 1.15 !important;
+}
 
 p {
   margin-top: 0;
@@ -134,6 +148,7 @@ sub {
 sup {
   top: -.5em; }
 
+
 a {
   color: #007bff;
   text-decoration: none;
@@ -141,6 +156,10 @@ a {
   a:hover {
     color: #0056b3;
     text-decoration: underline; }
+
+.cards-text-p {
+  font-size: 0.9rem;
+}
 
 a:not([href]) {
   color: inherit;
@@ -1797,29 +1816,29 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #ffffff;
-  background-color: #6206a8;
-  border-color: #6206a8; }
+  background-color: #0779e4;
+  border-color: #0779e4; }
   .btn-primary:hover {
     color: #ffffff;
-    background-color: #4c0583;
-    border-color: #450477; }
+    background-color: #fe346e;
+    border-color: #fe346e; }
   .btn-primary:focus, .btn-primary.focus {
     color: #ffffff;
-    background-color: #4c0583;
-    border-color: #450477;
-    box-shadow: 0 0 0 0.2rem rgba(122, 43, 181, 0.5); }
+    background-color: #fe346e;
+    border-color: #fe346e;
+     }
   .btn-primary.disabled, .btn-primary:disabled {
     color: #ffffff;
-    background-color: #6206a8;
-    border-color: #6206a8; }
+    background-color: #b80d57;
+    border-color: #b80d57; }
   .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
   .show > .btn-primary.dropdown-toggle {
     color: #ffffff;
-    background-color: #450477;
-    border-color: #3e046a; }
+    background-color: #b80d57;
+    border-color: #b80d57; }
     .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
     .show > .btn-primary.dropdown-toggle:focus {
-      box-shadow: 0 0 0 0.2rem rgba(122, 43, 181, 0.5); }
+       }
 
 .btn-secondary {
   color: #000000;
@@ -5675,6 +5694,10 @@ button.bg-dark:focus {
 .my-5 {
   margin-bottom: 3rem !important; }
 
+.mb-7 {
+  margin-bottom: 9rem !important;
+}
+
 .ml-5,
 .mx-5 {
   margin-left: 3rem !important; }
@@ -5826,6 +5849,10 @@ button.bg-dark:focus {
 .pb-3,
 .py-3 {
   padding-bottom: 1rem !important; }
+
+  .py-7 {
+    padding-bottom: 4.5em !important;
+  }
 
 .pl-3,
 .px-3 {
@@ -7948,7 +7975,7 @@ a.text-danger:hover, a.text-danger:focus {
   color: #ee0201 !important; }
 
 .text-light {
-  color: #f8f9fa !important; }
+  color: #8d95a6 !important; }
 
 a.text-light:hover, a.text-light:focus {
   color: #cbd3da !important; }
@@ -8121,6 +8148,7 @@ button:focus {
   border-radius: 6px;
   box-shadow: 0 2px 13px 0 rgba(218, 215, 215, 0.5);
   padding: 55px 35px 35px;
+  height: 320px;
   text-align: center; }
   .pricing-card .payment-period {
     margin-bottom: 28px; }
@@ -8248,12 +8276,12 @@ button:focus {
     .foi-footer .footer-widget-area p {
       font-size: 15px;
       font-weight: 600;
-      color: #fefefe; }
+      color: #202d4a; }
   .foi-footer .nav-link {
     font-size: 15px;
     line-height: 2.33;
     font-weight: 600;
-    color: #fefefe;
+    color: #202d4a;
     padding: 0; }
   .foi-footer .social-menu a {
     display: inline-block;
@@ -8339,7 +8367,7 @@ html {
   padding-top: 24px; }
   .foi-header .header-content {
     padding-top: 105px;
-    padding-bottom: 40px; }
+    padding-bottom: 10px; }
     .foi-header .header-content h1 {
       font-size: 45px;
       line-height: 1.22; }

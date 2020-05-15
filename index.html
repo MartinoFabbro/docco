@@ -8,6 +8,9 @@
     <title>DOCCO</title>
     <link rel="stylesheet" href="assets/vendors/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
+
+
 </head>
 
 <body>
@@ -15,41 +18,13 @@
       <div class="foi-header">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light foi-navbar">
-                <a style="width:50px" class="navbar-brand" href="index.html">
-                    <img style="width:80%; opacity: 0.6;" src="assets/images/logo2.png" alt="FOI">
-                </a>
+
+                    <img id="upper-logo" src="assets/images/docco_logo.png" alt="FOI">
                 <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavId">
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">Chi Siamo</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="features.html">La piattaforma</a>
-                        </li>
-<!--                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="pagesMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
-                            <div class="dropdown-menu" aria-labelledby="pagesMenu">
-                                <a class="dropdown-item" href="blog.html">Blog</a>
-                                <a class="dropdown-item" href="login.html">Login</a>
-                                <a class="dropdown-item" href="register.html">Register</a>
-                                <a class="dropdown-item" href="faq.html">FAQ</a>
-                                <a class="dropdown-item" href="404.html">404</a>
-                                <a class="dropdown-item" href="careers.html">Careers</a>
-                                <a class="dropdown-item" href="blog-single.html">Single blog</a>
-                                <a class="dropdown-item" href="privacy-policy.html">Privacy policy</a>
-                            </div>
-                        </li> -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contatti</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav mt-2 mt-lg-0">
+                    <ul class="navbar-nav mt-2 mt-lg-0" id="register-login">
                         <li class="nav-item mr-2 mb-3 mb-lg-0">
                             <a class="btn btn-secondary" href="register.html">Registrati</a>
                         </li>
@@ -62,127 +37,71 @@
             <div class="header-content">
                 <div class="row">
                     <div class="col-md-6">
-                        <h1>La piattaforma per la <span style="color:#e23e57">sicurezza in cantiere</span> adatta a tutti</h1>
-                        <p class="text-dark">Docco ti permette di gestire i flussi documentali
+                        <h1>La piattaforma per la <span style="color:#e23e57">sicurezza in cantiere</span> adatta a tutti.</h1>
+                        <p class="text-light">Docco ti permette di velocizzare fino all'80% i <strong>flussi documentali </strong> 
                         dei tuoi cantieri in modo estremamente semplice.</p>
-                        <button class="btn btn-primary mb-4">Inizia Subito</button>
+                        <button class="btn btn-primary mb-1 mt-4">Inizia Subito, è GRATIS</button>
                         <div class="my-2">
                             <p style="text-decoration: underline; font-size: 18px;" class="header-app-download-title">Contattaci</p>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <img src="assets/images/1.png" alt="app" width="688px" class="img-fluid">
+                        <img style="width: 50% !important" src="assets/images/test.gif" alt="app" width="388px" class="img-fluid" id="hero-image-1">
                     </div>
                 </div>
             </div>
         </div>
         </div>
     </header>
-    <section class="py-5 mb-5">
+    <section class="mb-7">
         <div class="container">
-            <h2 class="section-title">Funzionalità</h2>
+            <h2 class="section-title mb-5" style="text-align: center;">Funzionalità</h2>
             <div class="row">
-                <div class="col-lg-4 mb-4 mb-lg-0">
-                    <h5>Cantiere in 1 click</h5>
-                    <p class="text-dark">Docco riduce <strong>fino all'80%</strong>  i tempi gestione amministrativa dei tuoi cantieri. <br>
+
+                <div class="col-md-3" data-tilt>
+                    <div class="col-md-12 cards">
+                        <div class="upper-card-border color1"></div>
+                    <h5 style="color:#eb4559">Cantiere in 1 click</h5> <br>
+                    <p class="text-dark cards-text-p">Docco riduce <strong>fino all'80%</strong>  i tempi gestione amministrativa dei tuoi cantieri.
                      Controllo accessi, Flussi documentali, Adempimenti normativi, Sicurezza dei lavoratori, Con <strong>Docco</strong>  hai un unico HUB dove poter gestire con semplicità tutti questi processi.  </p>
-                    <p class="mb-5"><a href="#!" class="text-primary mb-5">Scopri come</a></p>
-                    <h5>Cloud</h5>
-                    <p class="text-dark">Controlla tutti i tuoi cantieri ovunque tu ti trovi, Docco è accessibile da qualsiasi dispositivo.</p>
-                    <p class="mb-5"><a href="#!" class="text-primary mb-5">Find out More</a></p>
+                    <p class="mb-5"><a href="#!" id="cta-cards-1">Scopri come</a></p>
                 </div>
-                <div class="col-lg-4 mb-3 mb-lg-0">
-                    <h5>Controllo accessi</h5>
-                    <p class="text-dark">Docco è integrato con una
+            </div>
+
+                 <div class="col-md-3" data-tilt>
+                    <div class="col-md-12 cards">
+                    <div class="upper-card-border color2"></div>
+                    <h5 style="color:#39f">Controllo accessi</h5> <br>
+                    <p class="text-dark cards-text-p">Docco è integrato con una
                     soluzione di controllo accessi
                     tramite App installabile
                     su device Android. <br>
                     Ovunque sia il cantiere è possibile
-                    verificare l’idoneità di ingresso
-                    per ogni lavoratore.</p> <br><br>
-                    <p class="mb-5"><a href="#!" class="text-primary mb-5">Come vengono gestiti gli accessi?</a></p>
-                    <h5>Una </h5>
-                    <p class="text-dark">No matter what kind of home you have to share, you can increase your earnings.</p>
-                    <p class="mb-5"><a href="#!" class="text-primary mb-5">Find out More</a></p>
-                </div>
-                <div class="col-lg-4">
-                    <h6 class="text-gray font-os font-weight-semibold">Trusted by the world's best</h6>
-                    <div id="landingClientCarousel" class="carousel slide landing-client-carousel" data-ride="carousel">
-                        <div class="carousel-inner" role="listbox">
-                            <div class="carousel-item active">
-                                <div class="d-flex flex-wrap justify-content-center">
-                                    <div class="clients-logo">
-                                        <img src="assets/images/clients/slack.svg" alt="Slack" class="img-fluid">
-                                    </div>
-                                    <div class="clients-logo">
-                                        <img src="assets/images/clients/spotify.svg" alt="Spotify" class="img-fluid">
-                                    </div>
-                                    <div class="clients-logo">
-                                        <img src="assets/images/clients/paypal.svg" alt="Paypal" class="img-fluid">
-                                    </div>
-                                    <div class="clients-logo">
-                                        <img src="assets/images/clients/amazon.svg" alt="Amazon" class="img-fluid">
-                                    </div>
-                                    <div class="clients-logo">
-                                        <img src="assets/images/clients/google.svg" alt="Google" class="img-fluid">
-                                    </div>
-                                    <div class="clients-logo">
-                                        <img src="assets/images/clients/samsung.svg" alt="Samsung" class="img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="d-flex flex-wrap justify-content-center">
-                                    <div class="clients-logo">
-                                        <img src="assets/images/clients/slack.svg" alt="Slack" class="img-fluid">
-                                    </div>
-                                    <div class="clients-logo">
-                                        <img src="assets/images/clients/spotify.svg" alt="Spotify" class="img-fluid">
-                                    </div>
-                                    <div class="clients-logo">
-                                        <img src="assets/images/clients/paypal.svg" alt="Paypal" class="img-fluid">
-                                    </div>
-                                    <div class="clients-logo">
-                                        <img src="assets/images/clients/amazon.svg" alt="Amazon" class="img-fluid">
-                                    </div>
-                                    <div class="clients-logo">
-                                        <img src="assets/images/clients/google.svg" alt="Google" class="img-fluid">
-                                    </div>
-                                    <div class="clients-logo">
-                                        <img src="assets/images/clients/samsung.svg" alt="Samsung" class="img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="d-flex flex-wrap justify-content-center">
-                                    <div class="clients-logo">
-                                        <img src="assets/images/clients/slack.svg" alt="Slack" class="img-fluid">
-                                    </div>
-                                    <div class="clients-logo">
-                                        <img src="assets/images/clients/spotify.svg" alt="Spotify" class="img-fluid">
-                                    </div>
-                                    <div class="clients-logo">
-                                        <img src="assets/images/clients/paypal.svg" alt="Paypal" class="img-fluid">
-                                    </div>
-                                    <div class="clients-logo">
-                                        <img src="assets/images/clients/amazon.svg" alt="Amazon" class="img-fluid">
-                                    </div>
-                                    <div class="clients-logo">
-                                        <img src="assets/images/clients/google.svg" alt="Google" class="img-fluid">
-                                    </div>
-                                    <div class="clients-logo">
-                                        <img src="assets/images/clients/samsung.svg" alt="Samsung" class="img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <ol class="carousel-indicators">
-                            <li data-target="#landingClientCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#landingClientCarousel" data-slide-to="1"></li>
-                            <li data-target="#landingClientCarousel" data-slide-to="2"></li>
-                        </ol>
+                    verificare <strong>l’idoneità di ingresso</strong>
+                    per ogni lavoratore.</p>
+                    <p class="mb-5"><a href="#!" id="cta-cards-2">Gestione accessi</a></p>
                     </div>
                 </div>
+
+                <div class="col-md-3 " data-tilt>
+                    <div class="col-md-12 cards">
+                    <div class="upper-card-border color3"></div>
+                    <h5 style="color:#00bdaa">Cloud</h5> <br>
+                    <p class="text-dark cards-text-p">Controlla tutti i tuoi cantieri ovunque tu ti trovi, Docco è accessibile da <strong>qualsiasi dispositivo</strong>.</p>
+                    <p class="mb-5"><a href="#!" id="cta-cards-3">Cosa significa?</a></p>
+                    </div>
+                </div>
+
+                <div class="col-md-3" data-tilt>
+                    <div class="col-md-12 cards">
+                    <div class="upper-card-border color4"></div>
+                    <h5 style="color:#7267e6">Sicurezza</h5> <br>
+                    <p class="text-dark cards-text-p">Docco permette ai vari attori di accedere e verificare tutta la documentazione di cantiere necessaria per completare la commessa <strong>nel più breve tempo possibile</strong>.</p>
+                    <p class="mb-5"><a href="#!" id="cta-cards-4">Gestione documenti</a></p>
+                </div>
+                </div>
+
+
             </div>
         </div>
     </section>
@@ -190,36 +109,37 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 mb-5 mb-md-0">
-                    <img src="assets/images/app_2.png" alt="special offers" class="img-fluid" width="492px">
+                    <img src="assets/images/app_show.svg" alt="cos'è docco" id="app-show" class="img-fluid" width="492px">
                 </div>
                 <div class="col-md-6">
-                    <h2 class="section-title">Get special offers on the things you love</h2>
-                    <p class="mb-5">He has led a remarkable campaign, defying the traditional mainstream parties courtesy of his En Marche! movement. For many, however, the campaign has become less about backing Macron and instead about voting against Le Pen, the National Front candidate.</p>
+                    <h2 class="section-title">Cos'è Doc<span style="color:#e23e57">co</span> </h2>
+                    <p class="mb-5">Docco è una piattaforma SaaS che consente alle singole aziende di gestire in un unico punto di accesso centralizzato, tutta la documentazione necessaria alla gestione di uno o più cantieri, sia in qualità di impresa affidataria sia in qualità di impresa esecutrice. <br><br>
+                        Ciascuna azienda, ricevute le credenziali di accesso (e in accordo con la politica commerciale di gestione dei permessi e funzionalità) potrà caricare:
+                        </p>
                     <div class="row">
                         <div class="col-md-6 mb-3">
                             <div class="media landing-feature">
-                                <span class="landing-feature-icon"></span>
                                 <div class="media-body">
-                                    <h5>Essentials</h5>
-                                    <p>All the basics for businesses that are just getting started.</p>
+                                    <h5>Liste dei lavoratori e delle squadre</h5>
+                                    <p>Nello specifico, le rispettive mansioni e idoneità. Docco ti permette di gestire le scadenze della formazione in accordo con la scadenza dei certificati dei singoli lavoratori.</p>
                                 </div>
                             </div>
                         </div>
+
                         <div class="col-md-6 mb-3">
                             <div class="media landing-feature">
-                                <span class="landing-feature-icon"></span>
                                 <div class="media-body">
-                                    <h5>Premium</h5>
-                                    <p>All the basics for businesses that are just getting started.</p>
+                                    <h5>Dati generali e relativa scadenza </h5>
+                                    <p>Il sistema notificherà tempestivamente nel caso documenti quali Visura, DURC, Dichiarazioni e DVR, siano in scadenza.</p>
                                 </div>
                             </div>
                         </div>
+
                         <div class="col-md-6 mb-3">
                             <div class="media landing-feature">
-                                <span class="landing-feature-icon"></span>
                                 <div class="media-body">
-                                    <h5>Standard</h5>
-                                    <p>All the basics for businesses that are just getting started.</p>
+                                    <h5>Mansionario </h5>
+                                    <p>Per ogni singolo lavoratore e squadra</p>
                                 </div>
                             </div>
                         </div>
@@ -230,39 +150,57 @@
     </section>
     <section class="py-5 mb-5">
         <div class="container">
-            <h2>Choose the plan that’s right for yor business</h2>
-            <p class="text-muted mb-5">Thank you for your very professional and prompt response. I wished I had found you before </p>
+            <h2 class="section-title mb-5" style="text-align: center;" id="titolo-caratteristiche">Caratteristiche</h2>
             <div class="row">
                 <div class="col-lg-4 mb-4">
-                    <div class="card pricing-card border-warning">
+                    <div class="card pricing-card">
                         <div class="card-body">
-                            <h3 class="mb-1">Starter</h3>
-                            <h3 class="mb-1 text-warning">Free</h3>
-                            <p class="payment-period">&nbsp</p>
-                            <p class="mb-4">Thank you for your very professional and prompt response.</p>
-                            <button class="btn btn-outline-warning btn-rounded">&nbsp&nbsp&nbsp Inizia &nbsp&nbsp&nbsp</button>
+                            <h3 class="mb-1">Gestione Accessi</h3> <br>
+                            <p class="mb-4">Tesserini identificativi yadayada.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 mb-4">
-                    <div class="card pricing-card border-primary active">
+                    <div class="card pricing-card">
                         <div class="card-body">
-                            <h3>Pmi</h3>
-                            <h3 class="text-primary">€19.95</h3>
-                            <p class="payment-period">Al mese</p>
+                            <h3>Condivisione</h3> <br>
                             <p class="mb-4">Thank you for your very professional and prompt response.</p>
-                            <button class="btn btn-primary btn-rounded">&nbsp&nbsp&nbsp Inizia &nbsp&nbsp&nbsp</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 mb-4">
-                    <div class="card pricing-card border-success">
+                    <div class="card pricing-card">
                         <div class="card-body">
-                            <h3>Enterprise</h3>
-                            <h3 class="text-success">Call me maybe</h3>
-                            <p class="payment-period">&nbsp</p>
+                            <h3>Scadenziario</h3> <br>
                             <p class="mb-4">Thank you for your very professional and prompt response.</p>
-                            <button class="btn btn-outline-success btn-rounded">Chiamaci</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card pricing-card">
+                        <div class="card-body">
+                            <h3 class="mb-1">Report</h3> <br>
+                            <p class="mb-4">Tesserini identificativi yadayada.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card pricing-card">
+                        <div class="card-body">
+                            <h3>Verbali</h3> <br>
+                            <p class="mb-4">Thank you for your very professional and prompt response.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card pricing-card">
+                        <div class="card-body">
+                            <h3>Anagrafiche</h3> <br>
+                            <p class="mb-4">Thank you for your very professional and prompt response.</p>
                         </div>
                     </div>
                 </div>
@@ -271,8 +209,7 @@
     </section>
     <section class="py-5 mb-5">
         <div class="container">
-            <h2>Dicono di noi</h2>
-            <p class="text-muted mb-5">Tanto va la gatta al lardo che ci lascia lo zampino</p>
+            <h2>Dicono di noi</h2> <br>
             <div class="row">
                 <div class="col-md-4 foi-review mb-5 mb-md-0">
                     <div class="foi-rating">
@@ -287,7 +224,6 @@
 
 .</p>
                     <div class="media foi-review-user">
-                        <img src="assets/images/avatar/avatar_11.jpg" alt="user" class="avatar">
                         <div class="media-body">
                             <h6 class="mb-0">Giulio Rossi</h6>
                             <p>Strozzino</p>
@@ -308,7 +244,6 @@
 
 </p>
                     <div class="media foi-review-user">
-                        <img src="assets/images/avatar/avatar_12.jpg" alt="user" class="avatar">
                         <div class="media-body">
                             <h6 class="mb-0">Luca Verdi</h6>
                             <p>Falso Amico</p>
@@ -328,7 +263,6 @@
                     <p class="foi-review-content">Pancetta swine tail capicola rump salami prosciutto. Brisket swine t-bone prosciutto picanha. Andouille ground round tongue beef ribs bacon short ribs strip steak shoulder jowl boudin. Turducken ham kevin, pancetta picanha rump t-bone jowl cow burgdoggen.
 </p>
                     <div class="media foi-review-user">
-                        <img src="assets/images/avatar/avatar_13.jpg" alt="user" class="avatar">
                         <div class="media-body">
                             <h6 class="mb-0">Monica </h6>
                             <p>Monica?</p>
@@ -342,13 +276,13 @@
     <section class="py-5 mb-5">
         <div class="container">
             <h2>FAQ</h2>
-            <p class="section-subtitle">Frequently Asked Questions</p>
+            <p class="section-subtitle">Domande Frequenti</p>
             <div class="row">
                 <div class="col-lg-6">
                     <div class="card mb-3 landing-faq-card">
                         <div class="card-header bg-white" id="faqOneTitle">
                             <a href="#faqOneCollapse" class="d-flex align-items-center" data-toggle="collapse">
-                                <h6 class="mb-0">What is Foi app?</h6> <i class="far fa-plus-square ml-auto"></i>
+                                <h6 class="mb-0">Docco è gratis? Dov'è la fregatura?</h6> <i class="far fa-plus-square ml-auto"></i>
                             </a>
                         </div>
                         <div id="faqOneCollapse" class="collapse" aria-labelledby="faqOneTitle">
@@ -360,7 +294,7 @@
                     <div class="card mb-3 landing-faq-card">
                         <div class="card-header bg-white" id="faqTwoTitle">
                             <a href="#faqTwoCollapse" class="d-flex align-items-center" data-toggle="collapse">
-                                <h6 class="mb-0">Why should I use Foi app?</h6> <i class="far fa-plus-square ml-auto"></i>
+                                <h6 class="mb-0">Perche dovrei usare Docco?</h6> <i class="far fa-plus-square ml-auto"></i>
                             </a>
                         </div>
                         <div id="faqTwoCollapse" class="collapse" aria-labelledby="faqTwoTitle">
@@ -372,7 +306,7 @@
                     <div class="card mb-3 landing-faq-card">
                         <div class="card-header bg-white" id="faqThreeTitle">
                             <a href="#faqThreeCollapse" class="d-flex align-items-center" data-toggle="collapse">
-                                <h6 class="mb-0">How can I use Foi app?</h6> <i class="far fa-plus-square ml-auto"></i>
+                                <h6 class="mb-0">Cosa devo fare una volta effettuato l'accesso?</h6> <i class="far fa-plus-square ml-auto"></i>
                             </a>
                         </div>
                         <div id="faqThreeCollapse" class="collapse" aria-labelledby="faqThreeTitle">
@@ -386,7 +320,7 @@
                     <div class="card mb-3 landing-faq-card">
                         <div class="card-header bg-white" id="faqFourTitle">
                             <a href="#faqFourCollapse" class="d-flex align-items-center" data-toggle="collapse">
-                                <h6 class="mb-0">Who will see my updates?</h6> <i class="far fa-plus-square ml-auto"></i>
+                                <h6 class="mb-0">Chi può vedere i miei documenti e le mie informazioni?</h6> <i class="far fa-plus-square ml-auto"></i>
                             </a>
                         </div>
                         <div id="faqFourCollapse" class="collapse" aria-labelledby="faqFourTitle">
@@ -398,7 +332,7 @@
                     <div class="card mb-3 landing-faq-card">
                         <div class="card-header bg-white" id="faqFiveTitle">
                             <a href="#faqFiveCollapse" class="d-flex align-items-center" data-toggle="collapse">
-                                <h6 class="mb-0">Can people see my connections?</h6> <i class="far fa-plus-square ml-auto"></i>
+                                <h6 class="mb-0">Quali referenze avete?</h6> <i class="far fa-plus-square ml-auto"></i>
                             </a>
                         </div>
                         <div id="faqFiveCollapse" class="collapse" aria-labelledby="faqFiveTitle">
@@ -410,7 +344,7 @@
                     <div class="card mb-3 landing-faq-card">
                         <div class="card-header bg-white" id="faqSixTitle">
                             <a href="#faqSixCollapse" class="d-flex align-items-center" data-toggle="collapse">
-                                <h6 class="mb-0">Being a user, what all rights I have?</h6> <i class="far fa-plus-square ml-auto"></i>
+                                <h6 class="mb-0">Come posso contattarvi?</h6> <i class="far fa-plus-square ml-auto"></i>
                             </a>
                         </div>
                         <div id="faqSixCollapse" class="collapse" aria-labelledby="faqSixTitle">
@@ -423,67 +357,55 @@
             </div>
         </div>
     </section>
-    <footer class="foi-footer text-white">
+    <footer class="foi-footer text-dark">
         <div class="container">
             <div class="row footer-content">
                 <div class="col-xl-6 col-lg-7 col-md-8">
-                    <h2 class="mb-0">Vuoi sapere altro? o hai altre domande? scrivici 😊</h2>
+                    <h2 class="mb-0">Hai altre domande? scrivici 😊</h2>
                 </div>
-                <div class="col-md-4 col-lg-5 col-xl-6 py-3 py-md-0 d-md-flex align-items-center justify-content-end">
+                <div class="col-md-6 col-lg-5 col-xl-6 py-3 py-md-0 d-md-flex align-items-center justify-content-end">
                     <a href="contact.html" class="btn btn-danger btn-lg">Contattaci</a>
                 </div>
             </div>
             <div class="row footer-widget-area">
-                <div class="col-md-3">
-                    <div class="py-3">
-                        <p>DOCCO</p>
+                <div class="col-md-6 col-12">
+                    <div class="py-4">
+                        <img src="assets/images/docco_logo.png" alt="docco logo" style="width: 30%;">
                     </div>
-                    <p class="font-os font-weight-semibold mb3">Get our mobile app</p>
+                    
+                    <p class="font-os font-weight-semibold mb3"></p>
                     <div>
-                        <button class="btn btn-app-download mr-2"><img src="assets/images/ios.svg" alt="App store"></button>
-                        <button class="btn btn-app-download"><img src="assets/images/android.svg" alt="play store"></button>
                     </div>
                 </div>
-                <div class="col-md-3 mt-3 mt-md-0">
-                    <nav>
-                    </nav>
-                </div>
-                <div class="col-md-3 mt-3 mt-md-0">
-                    <nav>
-                        <ul class="nav flex-column">
+                <div class="col-md-6 col-12 mt-6 mt-md-0">
+                    <nav >
+                        <ul class="nav flex-column float-right">
                             <li class="nav-item">
                                 <a href="#!" class="nav-link">Chi siamo</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#!" class="nav-link">Careers <span class="badge badge-pill badge-secondary ml-3">Hiring</span></a>
+                                <a href="#!" class="nav-link">Posizioni Aperte</a>
                             </li>
                             <li class="nav-item">
                                 <a href="#!" class="nav-link">Blog</a>
                             </li>
-                            <li class="nav-item">
-                                <a href="#!" class="nav-link">Shop with us</a>
+                            <li>
+                                <p>
+                                    &copy; Docco. 2020.
+                                </p>
                             </li>
                         </ul>
                     </nav>
                 </div>
-                <div class="col-md-3 mt-3 mt-md-0">
-                    <p>
-                        &copy; Docco. 2020 <a href="https://www.bootstrapdash.com" target="_blank" rel="noopener noreferrer" class="text-reset"></a>.
-                    </p>
-                    <p>No rights reserved.</p>
-                    <nav class="social-menu">
-                        <a href="#!"><img src="assets/images/facebook.svg" alt="facebook"></a>
-                        <a href="#!"><img src="assets/images/instagram.svg" alt="instagram"></a>
-                        <a href="#!"><img src="assets/images/twitter.svg" alt="twitter"></a>
-                        <a href="#!"><img src="assets/images/youtube.svg" alt="youtube"></a>
-                    </nav>
-                </div>
+
             </div>
         </div>
     </footer>
     <script src="assets/vendors/jquery/jquery.min.js"></script>
     <script src="assets/vendors/popper.js/popper.min.js"></script>
     <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script> <!-- Load Tilt.js library -->
+
 </body>
 
 </html>
